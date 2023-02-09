@@ -1,23 +1,23 @@
 ﻿<Properties StartupConfiguration="{B5E16426-33C0-4A6A-B69A-00588F638450}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SortingAlgorithms FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="SortingAlgorithms/Program.cs">
     <Files>
-      <File FileName="SortingAlgorithms/Program.cs" Line="1" Column="1" />
+      <File FileName="SortingAlgorithms/Program.cs" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SortingAlgorithms" expanded="True">
-            <Node name="SortingAlgorithms" expanded="True" selected="True" />
+            <Node name="SortingAlgorithms" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.SortingAlgorithms PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
