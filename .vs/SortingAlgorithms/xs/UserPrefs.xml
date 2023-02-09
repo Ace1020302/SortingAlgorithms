@@ -10,7 +10,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SortingAlgorithms" expanded="True">
-            <Node name="SortingAlgorithms" expanded="True" />
+            <Node name="SortingAlgorithms" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
