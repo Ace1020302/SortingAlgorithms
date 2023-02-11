@@ -5,16 +5,19 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.SortingAlgorithms PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.SortingAlgorithms PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="SortingAlgorithms/Program.cs">
     <Files>
-      <File FileName="SortingAlgorithms/Program.cs" Line="11" Column="1" />
+      <File FileName="SortingAlgorithms/Program.cs" Line="45" Column="19" />
+      <File FileName="SortingAlgorithms/inputJagged.csv" Line="14" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SortingAlgorithms" expanded="True">
-            <Node name="SortingAlgorithms" expanded="True" />
+            <Node name="SortingAlgorithms" expanded="True">
+              <Node name="inputJagged.csv" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
