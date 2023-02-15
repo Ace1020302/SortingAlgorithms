@@ -15,6 +15,11 @@ namespace SortingAlgorithms
             Sort(arr, low, high);
         }
 
+
+        /// <summary>
+        /// Sorts each array in the provided jagged array.
+        /// </summary>
+        /// <param name="jagArr"> The jagged array being sorted </param>
         public void SortJagged(int[][] jagArr)
         {
             foreach (int[] arr in jagArr)
