@@ -1,26 +1,26 @@
 ﻿<Properties StartupConfiguration="{B5E16426-33C0-4A6A-B69A-00588F638450}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.SortingAlgorithms PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SortingAlgorithms/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SortingAlgorithms/BinarySearch.cs">
     <Files>
-      <File FileName="SortingAlgorithms/Program.cs" Line="45" Column="19" />
-      <File FileName="SortingAlgorithms/inputJagged.csv" Line="14" Column="38" />
+      <File FileName="SortingAlgorithms/inputJagged.csv" />
+      <File FileName="SortingAlgorithms/QuickSort.cs" />
+      <File FileName="SortingAlgorithms/BinarySearch.cs" Line="67" Column="51" />
+      <File FileName="SortingAlgorithms/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SortingAlgorithms" expanded="True">
-            <Node name="SortingAlgorithms" expanded="True">
-              <Node name="inputJagged.csv" selected="True" />
-            </Node>
+            <Node name="SortingAlgorithms" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

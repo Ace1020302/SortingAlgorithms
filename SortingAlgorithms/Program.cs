@@ -36,9 +36,34 @@ class Program
             Console.WriteLine(e.Message);
         }
 
+        QuickSort quickSorter = new QuickSort();
 
-        PrintJaggedArray(jaggedArray);
+        quickSorter.SortJagged(jaggedArray);
 
+        //PrintJaggedArray(jaggedArray);
+
+        BinarySearch searcher = new BinarySearch();
+
+        //int IndexToPrint = searcher.Find(jaggedArray[14], 290);
+        //Console.WriteLine($"Found at Index: {IndexToPrint}");
+
+        int valueToFind = 610;
+        bool wasFound = false;
+
+        for(int i = 0; i < jaggedArray.Length; i++)
+        {
+            int index = searcher.Find(jaggedArray[i], valueToFind);
+            
+            if(index != -1)
+            {
+                Console.WriteLine($"Found at Index {index} in Array {i}.");
+                wasFound = true;
+            }
+        }
+
+        if (!wasFound)
+            Console.WriteLine($"{valueToFind} Not Found");
+            
     }
 
 
@@ -66,6 +91,8 @@ class Program
             foreach (int num in arr)
                 Console.Write($"{num} | ");
             Console.WriteLine();
+            Console.WriteLine("================================================================================================================");
+
         }
     }
 }
