@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{B5E16426-33C0-4A6A-B69A-00588F638450}|Default">
+﻿<Properties StartupConfiguration="{B5E16426-33C0-4A6A-B69A-00588F638450}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="SortingAlgorithms/Program.cs">
     <Files>
@@ -20,7 +20,5 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.SortingAlgorithms PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>
