@@ -1,4 +1,13 @@
-﻿using System;
+﻿///////////////////////////////////////////////////////////////////////////////
+//
+// Author: Phillip Edwards, edwardspb1@etsu.edu
+// Course: CSCI-2210-001 - Data Structures
+// Assignment: Sorting Algorithms Project 2
+// Description: Class that runs a search for provided value over a given array.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+using System;
 namespace SortingAlgorithms
 {
 	public class BinarySearch

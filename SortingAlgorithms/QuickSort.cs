@@ -1,4 +1,14 @@
-﻿using System;
+﻿///////////////////////////////////////////////////////////////////////////////
+//
+// Author: Phillip Edwards, edwardspb1@etsu.edu
+// Course: CSCI-2210-001 - Data Structures
+// Assignment: Sorting Algorithms Project 2
+// Description: Class that sorts an array or jagged array using a recursive quick sort algorithm.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+
+using System;
 namespace SortingAlgorithms
 {
 	public class QuickSort

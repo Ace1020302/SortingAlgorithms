@@ -1,4 +1,13 @@
-﻿namespace SortingAlgorithms;
+﻿///////////////////////////////////////////////////////////////////////////////
+//
+// Author: Phillip Edwards, edwardspb1@etsu.edu
+// Course: CSCI-2210-001 - Data Structures
+// Assignment: Sorting Algorithms Project 2
+// Description: Class that sorts a provided CSV file's data and searches through it for the number 256.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+namespace SortingAlgorithms;
 
 class Program
 {
