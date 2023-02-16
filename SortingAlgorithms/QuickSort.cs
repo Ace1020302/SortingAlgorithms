@@ -37,6 +37,8 @@ namespace SortingAlgorithms
             if (low < high)
             {
                 int pivotIndex = Partition(arr, low, high);
+
+                // Source: https://www.geeksforgeeks.org/quick-sort/ Helped with understanding the recursion
                 Sort(arr, low, pivotIndex - 1);
                 Sort(arr, pivotIndex + 1, high);
             }

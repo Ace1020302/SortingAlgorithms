@@ -12,11 +12,12 @@ namespace SortingAlgorithms
 		public int Find(int[] arr, int value)
 		{
 			//check if sorted
-			//if not, sort
+			//if not, sort (update to throw exception?)
 			if (!IsSorted(arr))
 			{
-				QuickSort quickSorter = new QuickSort();
-				quickSorter.Sort(arr);
+				//QuickSort quickSorter = new QuickSort();
+				//quickSorter.Sort(arr);
+				throw new ArgumentException();
 			}
 
 			// core search
@@ -39,6 +40,7 @@ namespace SortingAlgorithms
 			if (lowerBound > upperBound)
 				return -1;
 
+            // Source: https://www.geeksforgeeks.org/binary-search/
             int middlePosition = (upperBound + lowerBound) / 2; ;
 
 			// Sees if the value is at the search position.

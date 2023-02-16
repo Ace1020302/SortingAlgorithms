@@ -4,7 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
+        // File path relative to location of the program.
         const string _filePath = @"../../../inputJagged.csv";
+
+        // JaggedArray with an inital value of 20.
         int[][] jaggedArray =  new int[20][];
 
         // Source: https://learn.microsoft.com/en-us/dotnet/api/system.io.streamreader?view=net-7.0
@@ -32,35 +35,39 @@ class Program
             Console.WriteLine(e.Message);
         }
 
+
         // Sorts the entire jagged array
         QuickSort quickSorter = new QuickSort();
         quickSorter.SortJagged(jaggedArray);
 
+        PrintJaggedArray(jaggedArray);
 
+        Console.WriteLine("================================================================================================================");
+        Console.WriteLine();
+
+        // Sets up the searcher.
         BinarySearch searcher = new BinarySearch();
 
         // Tells what value the searcher needs to find.
-        int valueToFind = 610;
-        bool wasFound = false;
+        int valueToFind = 256;
+
+        Console.WriteLine($"Value being searched for: {valueToFind}\n");
 
         // Iterates the search for each array in the jagged array.
-        // Could implement in the BinarySearch class but this is for demostration only.
-
+        // Could implement in the BinarySearch class but this is for demostration only
         for(int i = 0; i < jaggedArray.Length; i++)
         {
             int index = searcher.Find(jaggedArray[i], valueToFind);
             
             if(index != -1)
             {
-                Console.WriteLine($"Found in Array {i} at Index {index}");
-                wasFound = true;
+                Console.WriteLine($"{valueToFind} found in Array {i} at Index {index}");
+            }
+            else
+            {
+                Console.WriteLine($"{valueToFind} not found in Array {i}\t\tIndex not found: {index}");
             }
         }
-
-        if (!wasFound)
-            Console.WriteLine($"{valueToFind} Not Found");
-
-        //PrintJaggedArray(jaggedArray);
     }
 
 
@@ -70,7 +77,7 @@ class Program
     /// </summary>
     /// <param name="line"> The string containing the values </param>
     /// <returns> An integer array containing the comma separated integers in the string </returns>
-    static private int[] ConvertLineToInt(string line)
+    private static int[] ConvertLineToInt(string line)
     {
         // splits the line where there are commas
         string[] lineParts = line.Split(',');
@@ -90,7 +97,7 @@ class Program
     /// Prints the jagged array in a formatted output.
     /// </summary>
     /// <param name="jagArr"> The jagged array that is being printed out. </param>
-    static private void PrintJaggedArray(int[][] jagArr)
+    private static void PrintJaggedArray(int[][] jagArr)
     {
         // Simply prints out array
         foreach (int[] arr in jagArr)
@@ -98,7 +105,8 @@ class Program
             foreach (int num in arr)
                 Console.Write($"{num} | ");
             Console.WriteLine();
-            Console.WriteLine("================================================================================================================");
+            Console.WriteLine();
+            //Console.WriteLine("================================================================================================================");
 
         }
     }
