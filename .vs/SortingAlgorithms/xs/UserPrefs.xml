@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{B5E16426-33C0-4A6A-B69A-00588F638450}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="SortingAlgorithms/Program.cs">
     <Files>
       <File FileName="SortingAlgorithms/inputJagged.csv" Line="21" Column="1" />
-      <File FileName="SortingAlgorithms/QuickSort.cs" Line="30" Column="35" />
-      <File FileName="SortingAlgorithms/BinarySearch.cs" Line="40" Column="15" />
-      <File FileName="SortingAlgorithms/Program.cs" Line="17" Column="33" />
+      <File FileName="SortingAlgorithms/QuickSort.cs" Line="6" Column="77" />
+      <File FileName="SortingAlgorithms/BinarySearch.cs" Line="6" Column="60" />
+      <File FileName="SortingAlgorithms/Program.cs" Line="14" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,10 +16,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SortingAlgorithms PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SortingAlgorithms PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

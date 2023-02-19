@@ -49,6 +49,9 @@ class Program
         QuickSort quickSorter = new QuickSort();
         quickSorter.SortJagged(jaggedArray);
 
+        MergeSort mergeSorter = new MergeSort();
+        mergeSorter.SortJagged(jaggedArray);
+
         PrintJaggedArray(jaggedArray);
 
         Console.WriteLine("================================================================================================================");
@@ -77,6 +80,7 @@ class Program
                 Console.WriteLine($"{valueToFind} not found in Array {i}\t\tIndex not found: {index}");
             }
         }
+        
     }
 
 
