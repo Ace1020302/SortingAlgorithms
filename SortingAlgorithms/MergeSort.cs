@@ -1,4 +1,13 @@
-﻿using System;
+﻿///////////////////////////////////////////////////////////////////////////////
+//
+// Author: Phillip Edwards, edwardspb1@etsu.edu
+// Course: CSCI-2210-001 - Data Structures
+// Assignment: Sorting Algorithms Project 2
+// Description: Class that sorts an array or jagged array using a recursive merge sort algorithm.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+using System;
 namespace SortingAlgorithms
 {
     public class MergeSort
@@ -24,6 +33,7 @@ namespace SortingAlgorithms
         /// <param name="high"> Integer represeing the end of range to be sorted </param>
         private void Sort(int[] arr, int low, int high)
         {
+            //Source:  https://www.geeksforgeeks.org/merge-sort/
             if (low >= high)
                 return;
             int midPoint = low + (high-low) / 2;
@@ -32,14 +42,26 @@ namespace SortingAlgorithms
             Merge(arr, low, midPoint, high);
         }
 
+        /// <summary>
+        /// Sorts a jagged array
+        /// </summary>
+        /// <param name="jaggedArr"> Jagged Array to be sorted; must be integers. </param>
         public void SortJagged(int[][] jaggedArr)
         {
             for(int i = 0; i < jaggedArr.Length; i++)
                 Sort(jaggedArr[i]);
         }
 
+        /// <summary>
+        /// Merge together subarrays.
+        /// </summary>
+        /// <param name="arr"> Array that is having subarrays merged into. </param>
+        /// <param name="low"> Pointer indicating left index for left subarray. </param>
+        /// <param name="mid"> Pointer indicating middle index for the two subarrays. </param>
+        /// <param name="high"> Pointer indicating right index for the right subarray. </param>
         private void Merge(int[] arr, int low, int mid, int high)
         {
+            // Source: https://www.geeksforgeeks.org/merge-sort/
             int leftArrBound = mid - low + 1;
             int rightArrBound = high - mid;
 
