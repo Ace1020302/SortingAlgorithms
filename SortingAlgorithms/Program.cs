@@ -86,7 +86,7 @@ class Program
         Console.WriteLine("================================================================================================================");
         Console.WriteLine();
 
-        Console.WriteLine("BINARY SEARCH\n");
+        Console.WriteLine("BINARY SEARCH: Using the Quick Sorted Jagged Array\n");
 
         Console.WriteLine("================================================================================================================");
         Console.WriteLine();
