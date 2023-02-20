@@ -40,7 +40,7 @@ class Program
         quickSorter.SortJagged(jaggedArray);
 
         stopwatch.Stop();
-        timeToQuickSort = stopwatch.Elapsed.TotalSeconds;
+        timeToQuickSort = stopwatch.Elapsed.TotalMilliseconds;
 
         stopwatch.Reset();
 
@@ -49,9 +49,9 @@ class Program
         mergeSorter.SortJagged(jaggedArray2);
 
         stopwatch.Stop();
-        timeToMergeSort = stopwatch.Elapsed.TotalSeconds;
+        timeToMergeSort = stopwatch.Elapsed.TotalMilliseconds;
 
-        Console.WriteLine($"QUICK SORT: {timeToQuickSort} seconds to sort \n");
+        Console.WriteLine($"QUICK SORT: {timeToQuickSort} milliseconds to sort \n");
 
         Console.WriteLine("================================================================================================================");
         Console.WriteLine();
@@ -59,23 +59,11 @@ class Program
 
         PrintJaggedArray(jaggedArray);
 
-        /*for(int i = 0; i < jaggedArray.Length; i++)
-        {
-            for(int j = 0; j < jaggedArray[i].Length; j++)
-            {
-                if (jaggedArray[i][j] != jaggedArray2[i][j])
-                {
-                    Console.WriteLine("NOT SORTED!");
-                    return;
-                }
-
-            }
-        }*/
 
         Console.WriteLine("================================================================================================================");
         Console.WriteLine();
 
-        Console.WriteLine($"MERGE SORT: {timeToMergeSort} seconds to sort\n");
+        Console.WriteLine($"MERGE SORT: {timeToMergeSort} milliseconds to sort\n");
 
         Console.WriteLine("================================================================================================================");
         Console.WriteLine();
@@ -90,6 +78,7 @@ class Program
 
         Console.WriteLine("================================================================================================================");
         Console.WriteLine();
+
         // Sets up the searcher.
         BinarySearch searcher = new BinarySearch();
 
@@ -173,7 +162,7 @@ class Program
     /// <param name="jagArr"> The jagged array that is being printed out. </param>
     private static void PrintJaggedArray(int[][] jagArr)
     {
-        // Simply prints out array
+        // Prints out array
         foreach (int[] arr in jagArr)
         {
             foreach (int num in arr)
