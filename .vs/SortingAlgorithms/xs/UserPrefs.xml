@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{B5E16426-33C0-4A6A-B69A-00588F638450}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="SortingAlgorithms/Program.cs">
     <Files>
-      <File FileName="SortingAlgorithms/inputJagged.csv" Line="21" Column="1" />
-      <File FileName="SortingAlgorithms/QuickSort.cs" Line="53" Column="31" />
-      <File FileName="SortingAlgorithms/BinarySearch.cs" Line="56" Column="35" />
-      <File FileName="SortingAlgorithms/MergeSort.cs" Line="7" Column="3" />
-      <File FileName="SortingAlgorithms/Program.cs" Line="16" Column="36" />
+      <File FileName="SortingAlgorithms/inputJagged.csv" Line="13" Column="19" />
+      <File FileName="SortingAlgorithms/QuickSort.cs" />
+      <File FileName="SortingAlgorithms/BinarySearch.cs" />
+      <File FileName="SortingAlgorithms/MergeSort.cs" />
+      <File FileName="SortingAlgorithms/Program.cs" Line="36" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SortingAlgorithms" expanded="True">
             <Node name="SortingAlgorithms" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="inputJagged.csv" selected="True" />
             </Node>
           </Node>
         </State>

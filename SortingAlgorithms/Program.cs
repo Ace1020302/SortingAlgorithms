@@ -8,7 +8,6 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 using System.Diagnostics;
-
 namespace SortingAlgorithms;
 
 class Program
@@ -105,6 +104,11 @@ class Program
 
     }
 
+    /// <summary>
+    /// Reads a CSV file's into a jagged array
+    /// </summary>
+    /// <param name="_filePath"> Path of the CSV file being read </param>
+    /// <param name="jagArr"> Jagged Array being written too. </param>
     private static void ReadFileToArray(string _filePath, int[][] jagArr)
     {
         // Source: https://learn.microsoft.com/en-us/dotnet/api/system.io.streamreader?view=net-7.0
